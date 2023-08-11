@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".SignInActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/baseline_emoji_emotions_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:textSize="42dp"
+        android:textColor="@color/white"
+        android:text="안녕하세요."
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="아이디"
+        android:gravity="start"
+        android:textColor="@color/textColor"
+        android:layout_marginHorizontal="26dp"
+        />
+
+    <EditText
+        android:id="@+id/input_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signin_id"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="26dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="비밀번호"
+        android:layout_marginHorizontal="26dp"/>
+
+    <EditText
+        android:id="@+id/input_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="비밀번호를 입력하세요."
+        />
+
+
+
+    <TextView
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginHorizontal="26dp"
+        android:layout_alignParentTop="true"
+        android:background="#FED36A"
+        android:layout_marginTop="60dp"
+        android:text="로그인"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/creatButton"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginHorizontal="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="31dp"
+        android:clipToOutline="true"
+        android:background="@drawable/box_border"
+        android:text="회원가입"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        />
+
+
+
+
+</LinearLayout>

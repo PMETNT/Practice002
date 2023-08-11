@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:textColor="@color/textColor"
+        android:text="이름" />
+
+    <EditText
+        android:id="@+id/creat_name" android:layout_marginHorizontal="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="이름을 입력하세요."/>
+
+    <TextView
+        android:id="@+id/textView9" android:layout_marginHorizontal="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="아이디" />
+
+    <EditText
+        android:id="@+id/creat_id" android:layout_marginHorizontal="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:text=""
+        android:hint="아이디를 입력하세요."/>
+
+    <TextView
+        android:id="@+id/textView12" android:layout_marginHorizontal="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="비밀번호" />
+
+    <EditText
+        android:id="@+id/creat_pw" android:layout_marginHorizontal="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="비밀번호를 입력하세요."/>
+
+
+
+    <TextView
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginHorizontal="26dp"
+        android:layout_alignParentTop="true"
+        android:background="#FED36A"
+        android:layout_marginTop="60dp"
+        android:text="회원가입"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        />
+</LinearLayout>
